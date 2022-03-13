@@ -1,0 +1,31 @@
+{
+	"storyName": "disruption",
+	"difficulties": "hard",
+	"hideFreeplay": true,
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"disruption",
+			"2d",
+			[
+				0,
+				20,
+				0
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "disruption"
+}

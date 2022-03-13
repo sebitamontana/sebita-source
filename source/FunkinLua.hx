@@ -67,8 +67,8 @@ class FunkinLua {
 		var result:Dynamic = LuaL.dofile(lua, script);
 		var resultStr:String = Lua.tostring(lua, result);
 		if(resultStr != null && result != 0) {
-			lime.app.Application.current.window.alert(resultStr, 'Error on .LUA script!');
-			trace('Error on .LUA script! ' + resultStr);
+			lime.app.Application.current.window.alert(resultStr, 'error en tu lua script!');
+			trace('error en tu lua script! ' + resultStr);
 			lua = null;
 			return;
 		}
